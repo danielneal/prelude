@@ -1,0 +1,11 @@
+(global-set-key (kbd "C-s") 'isearch-forward)
+(global-set-key (kbd "M-p") 'forward-paragraph)
+(global-set-key (kbd "M-n") 'backward-paragraph)
+(global-set-key [remap mark-sexp] nil)
+(global-set-key (kbd "C-M-SPC") 'mark-sexp)
+(global-set-key (kbd "M-m f r") 'counsel-recentf)
+(global-set-key (kbd "M-m p f") 'counsel-find-file)
+(global-set-key (kbd "M-m p f") 'projectile-find-file)
+(global-set-key (kbd "M-m s g p") 'counsel-git-grep)
+;; allow insert of hash with right alt on mac os x uk keyboard
+(setq ns-right-alternate-modifier (quote none))
