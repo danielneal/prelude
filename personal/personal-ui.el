@@ -1,7 +1,6 @@
 (global-hl-line-mode 0)
 (prelude-require-package 'quasi-monochrome-theme)
 (load-theme 'quasi-monochrome t)
-(add-to-list 'default-frame-alist '((font . "Fira code")))
 (scroll-bar-mode 0)
 (set-fringe-mode 0)
 (beacon-mode 0)
