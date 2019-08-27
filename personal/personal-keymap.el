@@ -2,6 +2,7 @@
 (global-set-key (kbd "M-p") 'forward-paragraph)
 (global-set-key (kbd "M-n") 'backward-paragraph)
 (global-set-key [remap mark-sexp] nil)
+(global-set-key [remap kill-ring-save] nil)
 (global-unset-key (kbd "M-m"))
 (global-set-key (kbd "C-M-SPC") 'mark-sexp)
 (global-set-key (kbd "M-m f r") 'counsel-recentf)
